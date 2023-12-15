@@ -8,7 +8,8 @@ const songsSlice = createSlice({
             state.push(action.payload)
         },
         removeSong(state, action){
-            //TODO: Code this
+            const index = state.indexOf(action.payload)
+            state.splice(index, 1)
         }
     }
 })
@@ -21,3 +22,4 @@ const store = configureStore({
 
 console.log('State is -->', store.getState());
 export { store };
+export const { addSong, removeSong } = songsSlice.actions
