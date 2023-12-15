@@ -1,4 +1,3 @@
-import './store';
 import MoviePlaylist from "./components/MoviePlaylist";
 import SongPlaylist from "./components/SongPlaylist";
 

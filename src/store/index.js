@@ -19,4 +19,5 @@ const store = configureStore({
     }
 })
 
-console.log('Store is -->', store.getState());
+console.log('State is -->', store.getState());
+export { store };
