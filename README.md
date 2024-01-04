@@ -26,7 +26,7 @@ Install dependencies
   npm install
 ```
 
-Start the server ( in another console )
+Start the application
 
 ```bash
   npm run start
